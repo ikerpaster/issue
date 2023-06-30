@@ -9,3 +9,4 @@ export default newRequest;
 
 // baseURL: "https://travel-jpx4.onrender.com/api/",
 // baseURL: "http://localhost:1337/api/",
+// x
