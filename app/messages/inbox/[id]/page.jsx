@@ -34,7 +34,7 @@ const Page = ({params}) => {
   useEffect(() => {
     // console.log("ididid: ",params.id);
     const getMsg = async () => {
-      const response = await fetch(`http://localhost:1337/api/messages/${params.id}`);
+      const response = await fetch(`https://travel-jpx4.onrender.com/api/messages/${params.id}`);
       const data = await response.json();
 
       setMsg(data);
