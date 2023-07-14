@@ -44,7 +44,7 @@ const Page =  () => {
   console.log("the data now::", roomx);
   return (
     <div className="container mx-auto py-8">
-      <h1 className="text-3xl font-semibold mb-6">Available Rooms</h1>
+      <h1 className="text-3xl font-semibold mb-6">Available Rooms BABA</h1>
       <RoomList rooms={roomx} />
     </div>
   );
